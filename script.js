@@ -11,11 +11,11 @@ function movingBox() {
     var left;
     var upDown;
     var side;
-    left = Math.random()*100;         // random movement upto 100rem
-    upDown = Math.random()*50;        // random movement upto 50rem
+    left = Math.random()*100;         // random movement upto 100% of view width
+    upDown = Math.random()*70;        // random movement upto 70% of vieh hieght
     side = ((Math.random()*200)+80);  // minimum length size is 80px
-    document.getElementById("testBox").style.left = left + "rem";   // this part was done in video lecture without adding any untis ! how?
-    document.getElementById("testBox").style.top = upDown+ "rem";
+    document.getElementById("testBox").style.left = left + "vw";   // this part was done in video lecture without adding any untis ! how?
+    document.getElementById("testBox").style.top = upDown+ "vh";
     document.getElementById("testBox").style.width= side+ "px";
     document.getElementById("testBox").style.height= side+ "px";
     begin=new Date().getTime();                                    //why there is no need to declare variable here but later on we have to ?
