@@ -1,0 +1,21 @@
+*{
+        background-color: black;
+        color: aqua;
+ }
+h1{
+    text-align: center;
+    margin: 30px;
+
+}
+p{
+    text-align: center;
+    font-size: 2em;
+}
+
+#testBox{
+    background-color: red;
+    width: 200px;
+    height: 200px;
+    position: relative;
+
+}
